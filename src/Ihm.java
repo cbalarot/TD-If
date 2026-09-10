@@ -6,6 +6,7 @@ public class Ihm {
         char char1, char2, charMaj;
 
 
+        //Exercice 1
         System.out.print("Donne un chiffre : ");
         chiffreModulo = In.readInteger();
         if (chiffreModulo % 2 == 0) {
@@ -15,7 +16,7 @@ public class Ihm {
         }
         System.out.println();
 
-
+        //Exercice 2
         System.out.print("Première lettre : ");
         char1 = In.readChar();
         System.out.print("Deuxieme lettre : ");
@@ -27,7 +28,7 @@ public class Ihm {
         }
         System.out.println();
 
-
+        //Exercice 3
         System.out.print("Température eau : ");
         temperature = In.readInteger();
         if (temperature < 0) {
@@ -39,7 +40,7 @@ public class Ihm {
         }
         System.out.println();
 
-
+        //Exercice 5
         System.out.print("Donne une lette min ou majuscule : ");
         charMaj = In.readChar();
         if (charMaj >= 'A' && charMaj <= 'Z') {
@@ -51,6 +52,7 @@ public class Ihm {
         }
         System.out.println();
 
+        //Exercice 6
         System.out.print("Donne un nombre entier : ");
         converter = In.readInteger();
         if (converter > 127) {
