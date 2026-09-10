@@ -1,7 +1,5 @@
 import clavier.In;
 
-import java.util.HexFormat;
-
 public class Ihm {
     static void main(String[] args) {
         int chiffreModulo, temperature, converter;
