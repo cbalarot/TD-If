@@ -12,7 +12,7 @@ public class Ihm {
         chiffreModulo = In.readInteger();
         if (chiffreModulo % 2 == 0) {
             System.out.println("Ton chiffre est pair");
-        } else  {
+        } else {
             System.out.println("Ton chiffre est impair");
         }
         System.out.println();
@@ -23,9 +23,9 @@ public class Ihm {
         System.out.print("Deuxieme lettre : ");
         char2 = In.readChar();
         if (char1 > char2) {
-            System.out.println(char1+""+char2);
+            System.out.println(char1 + "" + char2);
         } else {
-            System.out.println(char2+""+char1);
+            System.out.println(char2 + "" + char1);
         }
         System.out.println();
 
