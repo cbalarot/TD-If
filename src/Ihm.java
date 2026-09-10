@@ -2,7 +2,7 @@ import clavier.In;
 
 public class Ihm {
     static void main(String[] args) {
-        int chiffreModulo, temperature, converter;
+        int chiffreModulo, temperature, age, converter;
         char char1, char2, charMaj;
 
 
@@ -40,7 +40,7 @@ public class Ihm {
         }
         System.out.println();
 
-        //Exercice 5
+        //Exercice 4
         System.out.print("Donne une lette min ou majuscule : ");
         charMaj = In.readChar();
         if (charMaj >= 'A' && charMaj <= 'Z') {
@@ -51,6 +51,15 @@ public class Ihm {
             System.out.println("Autre truc bizzard");
         }
         System.out.println();
+
+        //Exercice 5
+        System.out.print("Quelle est ton age : ");
+        age = In.readInteger();
+        if (age > 18) {
+            System.out.println("Tu es majeur");
+        } else {
+            System.out.println("Tu es mineur");
+        }
 
         //Exercice 6
         System.out.print("Donne un nombre entier : ");
