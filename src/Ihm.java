@@ -55,6 +55,10 @@ public class Ihm {
 
         System.out.print("Donne un nombre entier : ");
         converter = In.readInteger();
+        if (converter > 127) {
+            System.out.println("Votre nombre est trop grands il sort de la table ascii");
+            return;
+        }
         System.out.println("Le caractère est : " + (char) converter);
         System.out.println("La valeur en base10 : " + converter);
         System.out.println("La valeur hexadécimal : 0x" + Integer.toHexString(converter));
